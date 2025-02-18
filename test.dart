@@ -7,8 +7,10 @@ void main(){
 // Variables: store different types of data
 String name = 'John';
 int semester = 4;
-double gpa = 3.5;
+double gpa = 3.4;
 bool isBeginner = true;
+
+
 
 /*
   basic math operations
