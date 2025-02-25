@@ -92,24 +92,3 @@ void main(){
   data.fetchData().then((value) => print(value));
   print('Fetching data...');
 }
-
-/*
-Task: Simple Shape Calculator (with Async Area Calculation)
-
-Goal: Reinforce abstraction, encapsulation, inheritance, polymorphism, and introduce a simple async operation.
-
-Instructions:
-Create a Rectangle class: Similar to Square, but with width and height. It should also implement the Shape abstract class.
-
-Create a ShapeCalculator class:
-  This class should have a method calculateAreaAsync(Shape shape).
-  This method should:
-  Simulate a delay (e.g., 1 second) using Future.delayed. Explain that this simulates a complex calculation or external data retrieval.
-  After the delay, call the shape.getArea() method and return the result as a Future<double>.
-
-Main Function:
-  Create instances of Circle, Square, and Rectangle.
-  Create an instance of ShapeCalculator.
-  Call calculateAreaAsync for each shape.
-  Use await to get the results and print them to the console.
-*/
