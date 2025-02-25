@@ -82,10 +82,15 @@ void main(){
 
   //Encapsulation (list of shapes contains different shapes)
   List<Shape> shapes = [Circle(5), Square(4)];
-
   for (var shape in shapes){
     print('Area: ${shape.getArea()}');
     print('Circumference: ${shape.circumference}');
+  }
+
+  List<Animal> animals = [Cat('Tom', 'Persian'), Dog('Spike', 'Bulldog')];
+  for (var animal in animals){
+    print('Name: ${animal.name}');
+    animal.makeSound();
   }
 
   Data data = Data();
